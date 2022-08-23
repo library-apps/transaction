@@ -1,0 +1,15 @@
+2022-08-24 00:04:11.087  INFO [TRANSACTION,,] 6437 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-24 00:09:11.800  INFO [TRANSACTION,,] 6437 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-24 00:14:11.808  INFO [TRANSACTION,,] 6437 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-24 00:19:11.892  INFO [TRANSACTION,,] 6437 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-08-24 00:22:49.585  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TRANSACTION with eureka with status DOWN
+2022-08-24 00:22:49.599  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1661275369599, current=DOWN, previous=UP]
+2022-08-24 00:22:49.606  INFO [TRANSACTION,,] 6437 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRANSACTION/192.168.1.4:TRANSACTION:8083: registering service...
+2022-08-24 00:22:49.723  INFO [TRANSACTION,,] 6437 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRANSACTION/192.168.1.4:TRANSACTION:8083 - registration status: 204
+2022-08-24 00:22:50.979  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-24 00:22:51.070  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-24 00:22:51.091  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-24 00:22:52.095  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-24 00:22:55.111  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-08-24 00:22:55.174  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TRANSACTION/192.168.1.4:TRANSACTION:8083 - deregister  status: 200
+2022-08-24 00:22:55.265  INFO [TRANSACTION,,] 6437 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
